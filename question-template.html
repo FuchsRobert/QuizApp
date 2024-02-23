@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logoBrain.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style-question.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="script-question.js"></script>
+    <title>Videospiele-Quiz</title>
+</head>
+
+<body onload="init()">
+    
+<div class="quizContent">
+    <div class="leftSide">
+        <div class="leftContent">
+            <img class="leftImage" src="./img/logo.png" alt="Quiz-Logo">
+            <div class="textLeft">
+                <span class="leftSpan">Videospiele</span>
+                <span class="leftSpan">Filme</span>
+                <span class="leftSpan">Technik</span>
+                <span class="leftSpan">KI</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="quizCard">
+        <div class="card">
+            <img src="./img/card-bg.jpg" class="card-img-top" alt="Card-Top">
+            <div class="card-body">
+              <h5 class="card-title mb-3" id="questionText">Frage</h5>
+              
+              <div class="card mb-2">
+                <div class="card-body" id="answer_1">
+                  This is some text within a card body.
+                </div>
+              </div>
+
+              <div class="card mb-2">
+                <div class="card-body" id="answer_2">
+                  This is some text within a card body.
+                </div>
+              </div>
+
+              <div class="card mb-2">
+                <div class="card-body" id="answer_3">
+                  This is some text within a card body.
+                </div>
+              </div>
+
+              <div class="card mb-3">
+                <div class="card-body" id="answer_4">
+                  This is some text within a card body.
+                </div>
+              </div>
+
+              <div class="questionFooter">
+                <span><b>1</b> von <b id="allQuestions"></b> Fragen</span>
+                <button class="btn btn-primary" type="submit">Nächste Frage</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    
+</div>
+
+</body>
+
+</html>
